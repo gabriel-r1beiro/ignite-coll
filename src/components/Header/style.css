@@ -1,0 +1,32 @@
+.btn{
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #fff;
+    color: #000;
+    padding: 20px 40px;
+    border-radius: 5px;
+    border-bottom: 4px solid #999;
+    cursor: pointer;
+    transition: all 1s ease-in-out;
+    animation: shake 2s ease-in-out infinite;
+}
+
+.btn:hover{
+    background-color: #999;
+    border-bottom-color: #555;
+    color: #333;
+}
+
+@keyframes shake {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.1);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}

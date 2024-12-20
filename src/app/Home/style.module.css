@@ -1,0 +1,21 @@
+.conteiner{
+    margin-left: auto;
+    max-width: calc(100vw - (100vw - 1160px) / 2);
+    height: 100vh;
+
+    display: flex;
+    gap: 5rem;
+    align-items: center;
+    overflow: hidden;
+}
+
+.hero{
+    max-width: 480px;
+    padding: 0 10px;
+
+
+}
+
+.preview{
+
+}
